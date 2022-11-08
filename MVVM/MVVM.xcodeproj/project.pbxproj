@@ -13,6 +13,7 @@
 		9B381101291A5664008F37CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3810FF291A5664008F37CA /* Main.storyboard */; };
 		9B381103291A5664008F37CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B381102291A5664008F37CA /* Assets.xcassets */; };
 		9B381106291A5664008F37CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B381104291A5664008F37CA /* LaunchScreen.storyboard */; };
+		9B38110E291A56C1008F37CA /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38110D291A56C1008F37CA /* GreetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B381102291A5664008F37CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B381105291A5664008F37CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B381107291A5665008F37CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B38110D291A56C1008F37CA /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9B381102291A5664008F37CA /* Assets.xcassets */,
 				9B381104291A5664008F37CA /* LaunchScreen.storyboard */,
 				9B381107291A5665008F37CA /* Info.plist */,
+				9B38110D291A56C1008F37CA /* GreetingViewModel.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				9B3810FE291A5664008F37CA /* ViewController.swift in Sources */,
 				9B3810FA291A5664008F37CA /* AppDelegate.swift in Sources */,
 				9B3810FC291A5664008F37CA /* SceneDelegate.swift in Sources */,
+				9B38110E291A56C1008F37CA /* GreetingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
